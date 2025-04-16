@@ -1,5 +1,11 @@
 package com.unimelb.swen30006.workshops;
 
 public enum State {
-    PENDING;
+    PENDING,
+    ACTIVE,
+    DEFAULT,
+    SUSPENDED,
+    INACTIVE,
+    CLOSED;
 }
+
